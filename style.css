@@ -184,3 +184,26 @@ transition:transform 0.2s;
 .card:hover{
 transform:translateY(-5px);
 }
+.profile-buttons{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+margin-top:15px;
+}
+
+.profile-btn{
+display:inline-block;
+background:#0b3c5d;
+color:white;
+padding:10px 16px;
+border-radius:6px;
+text-decoration:none;
+font-weight:500;
+transition:0.2s;
+}
+
+.profile-btn:hover{
+background:#062f4f;
+transform:translateY(-2px);
+}
+
