@@ -50,3 +50,37 @@ footer {
     padding: 22px;
     font-size: 0.9rem;
 }
+/* image layout for teaching page */
+
+.figure-row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.figure-item {
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.square-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.wide-img {
+    width: 510px;
+    height: auto;
+}
+
+.figure-item img {
+    border: 1px solid #ccc;
+}
+
+.figure-item figcaption {
+    font-size: 0.9rem;
+    margin-top: 6px;
+}
